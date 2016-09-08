@@ -7,14 +7,18 @@
 //
 
 import UIKit
+import Alamofire
+
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     @IBAction func registerButton(sender: AnyObject) {
+        Alamorefire.get
     }
     @IBAction func loginButton(sender: AnyObject) {
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
